@@ -47,8 +47,6 @@
 # define LE2CPU16(x)	(x)
 #endif
 
-int debug;
-
 #define DFU_IFF_DFU		0x0001	/* DFU Mode, (not Runtime) */
 #define DFU_IFF_VENDOR		0x0100
 #define DFU_IFF_PRODUCT		0x0200

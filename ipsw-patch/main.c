@@ -19,8 +19,6 @@
 #include <windows.h>
 #endif
 
-char endianness;
-
 static char* tmpFile = NULL;
 
 static AbstractFile* openRoot(void** buffer, size_t* rootSize) {

@@ -117,6 +117,7 @@ DO1(buf);
   return crc;
 }
 
+int debug;
 
 #define PROGRESS_BAR_WIDTH 50
 

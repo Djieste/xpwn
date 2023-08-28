@@ -11,8 +11,6 @@
 using namespace ibooter;
 using namespace std;
 
-char endianness;
-
 void TestByteOrder()
 {
 	short int word = 0x0001;
